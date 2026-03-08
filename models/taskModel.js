@@ -10,4 +10,4 @@ const taskSchema = new mongoose.Schema({
   deletedAt: { type: Date, default: null }
 }, { timestamps: true });
 
-module.exports = mongoose.model("Task", taskSchema);
+module.exports = mongoose.model("Task", taskSchema); 
